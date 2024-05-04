@@ -1,0 +1,16 @@
+{
+	"name": "@wtf/test",
+	"version": "0.0.0",
+	"module": "src/index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@wtf/core": "workspace:*",
+		"radash": "^12.1.0"
+	}
+}

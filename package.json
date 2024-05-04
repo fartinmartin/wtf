@@ -1,0 +1,19 @@
+{
+  "name": "wtf",
+  "type": "module",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/core",
+    "packages/test"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules bun.lockb packages/*/node_modules packages/*/bun.lockb",
+    "wtf": "bun run packages/test/src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
